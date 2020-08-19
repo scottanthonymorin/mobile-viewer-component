@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import MobileWrapper from "./MobileWrapper";
+import MobileWrapper from "./MobileWrapper/MobileWrapper";
 
 const App = () => (
   <MobileWrapper background='weave'>

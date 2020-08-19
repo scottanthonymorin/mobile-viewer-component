@@ -20,6 +20,7 @@ const Wrapper = styled.div`
   border-left: 10px solid;
   border-right: 10px solid;
   border-color: ${black};
+  box-sizing: border-box;
   box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
   height: 100%;
   min-width: 320px;
@@ -31,12 +32,15 @@ const Wrapper = styled.div`
   }
 `;
 const InnerWrapper = styled.div`
+  box-sizing: border-box;
   overflow: scroll;
   background: #fff;
   border-radius: 6px;
   height: 100%;
 `;
 const Content = styled.div`
+  box-sizing: border-box;
+  height: 100%;
   overflow: hidden;
 `;
 

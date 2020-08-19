@@ -1,7 +1,8 @@
 {
   "name": "mobile-viewer-component",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "private": false,
+  "repository": "https://github.com/scottanthonymorin/mobile-viewer-component",
   "babel": {
     "presets": [
       "@babel/preset-react"
@@ -14,6 +15,12 @@
   "dependencies": {
     "react-scripts": "3.4.3",
     "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/preset-react": "^7.10.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,11 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/preset-react": "^7.10.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
   }
 }

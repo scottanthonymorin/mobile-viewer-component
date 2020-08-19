@@ -6,6 +6,7 @@ const Desktop = ({ background, children }) => {
 };
 
 const Wrapper = styled.div`
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;

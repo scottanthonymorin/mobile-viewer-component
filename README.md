@@ -1,10 +1,10 @@
-# Mobile Wrapper Component
+# Mobile Viewer Component
 
 Need to present your react-based mobile web app in a desktop browser... Here is a React component that you can use to wrap your app. _This does not replace browser dev tools._
 
 ## Setup
 
-### Installation
+### Install
 
 ```
 npm install mobile-viewer-component
@@ -16,13 +16,13 @@ or
 yarn add mobile-viewer-component
 ```
 
-### import for usage
+### Import
 
 ```
 import MobileWrapper from "mobile-viewer-component/dist";
 ```
 
-### Implementation
+### Implement
 
 - Wrap it around your `App` component, or the top level component that has content. No need to wrap any context providers, etc.
 
@@ -32,7 +32,7 @@ import MobileWrapper from "mobile-viewer-component/dist";
 </MobileWrapper>
 ```
 
-Be sure to set the body padding and margins to 0.
+Note: This component needs the body to have a margin and padding of 0. It is added by the component but may impact your styling if and when you remove the component as you will have written your app CSS with this applied.
 
 ```css
 body {
