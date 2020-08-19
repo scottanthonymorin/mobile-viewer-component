@@ -1,26 +1,66 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import MobileWrapper from "./MobileWrapper";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <MobileWrapper background='weave'>
+    This is where all of your content will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+    <p>sdfsdfssdfsdfsfdsfdsdf sdfsfsdf</p> This is where all of your content
+    will go!! asd
+    <h1>sdfsdfs</h1>
+  </MobileWrapper>
+);
 
 export default App;
