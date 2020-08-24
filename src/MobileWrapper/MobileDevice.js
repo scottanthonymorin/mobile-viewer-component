@@ -42,6 +42,7 @@ const Content = styled.div`
   box-sizing: border-box;
   height: 100%;
   overflow: hidden;
+  position: relative;
 `;
 
 export default MobileDevice;
