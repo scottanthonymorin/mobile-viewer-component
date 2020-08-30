@@ -32,15 +32,6 @@ import MobileWrapper from "mobile-viewer-component/dist";
 </MobileWrapper>
 ```
 
-Note: This component needs the body to have a margin and padding of 0. It is added by the component but may impact your styling if and when you remove the component as you will have written your app CSS with this applied.
-
-```css
-body {
-  margin: 0;
-  padding: 0;
-}
-```
-
 ## Desktop Backgrounds
 
 There are a few preset CSS backgrounds that you can use. _They were implemented with CSS from https://leaverou.github.io/css3patterns/._
