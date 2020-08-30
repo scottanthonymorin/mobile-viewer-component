@@ -14,11 +14,11 @@ const MobileDevice = ({ children }) => (
 
 const Wrapper = styled.div`
   background: ${black};
-  border-radius: 8px;
-  border-top: 14px solid;
-  border-bottom: 14px solid;
-  border-left: 10px solid;
-  border-right: 10px solid;
+  border-radius: 35px;
+  border-top: 26px solid;
+  border-bottom: 26px solid;
+  border-left: 16px solid;
+  border-right: 16px solid;
   border-color: ${black};
   box-sizing: border-box;
   box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
@@ -35,13 +35,12 @@ const InnerWrapper = styled.div`
   box-sizing: border-box;
   overflow: scroll;
   background: #fff;
-  border-radius: 6px;
+  border-radius: 26px;
   height: 100%;
 `;
 const Content = styled.div`
   box-sizing: border-box;
   height: 100%;
-  overflow: hidden;
   position: relative;
 `;
 
