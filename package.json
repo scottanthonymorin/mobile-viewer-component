@@ -1,6 +1,6 @@
 {
   "name": "mobile-viewer-component",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "private": false,
   "repository": "https://github.com/scottanthonymorin/mobile-viewer-component",
   "babel": {
